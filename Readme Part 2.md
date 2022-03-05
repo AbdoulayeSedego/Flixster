@@ -20,7 +20,7 @@
 ### App Walkthough GIF
 
 <img src="https://github.com/AbdoulayeSedego/Flixster/blob/master/WalkthoughDetailActivity.gif" width=250><br>
-<img src="https://github.com/AbdoulayeSedego/Flixster/blob/master/WalkthroughLandscape.gif" width=250><br>
+<img src="https://github.com/AbdoulayeSedego/Flixster/blob/master/WalkthroughLandscape.gif" width=500><br>
 
 ### Notes
 
