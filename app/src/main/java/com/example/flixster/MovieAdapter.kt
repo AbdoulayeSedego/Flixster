@@ -1,5 +1,6 @@
 package com.example.flixster
 
+import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
 import android.util.Log
@@ -11,6 +12,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import android.util.Pair as UtilPair
 
 const val MOVIE_EXTRA = "MOVIE_EXTRA"
 private const val TAG = "MovieAdapter"
@@ -57,6 +59,10 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
             val intent = Intent(context, DetailActivity::class.java)
             intent.putExtra("MOVIE_EXTRA", movie)
             context.startActivity(intent)
+
+
         }
+
     }
+
 }

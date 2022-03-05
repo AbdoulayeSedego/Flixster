@@ -1,5 +1,6 @@
 package com.example.flixster
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.RatingBar
@@ -77,7 +78,8 @@ class DetailActivity : YouTubeBaseActivity() {
                 p2: Boolean
             ) {
                 Log.i(TAG, "onInitializationSuccess")
-                player?.cueVideo(youtubeKey)
+//                player?.cueVideo(youtubeKey)
+                player?.loadVideo(youtubeKey)
             }
 
             override fun onInitializationFailure(
